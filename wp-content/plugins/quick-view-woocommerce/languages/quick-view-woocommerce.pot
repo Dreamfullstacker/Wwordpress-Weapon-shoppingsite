@@ -1,0 +1,225 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-07-03 10:06+0530\n"
+"PO-Revision-Date: 2017-07-03 08:07+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ../Downloads/quick-view-woocommerce\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_attr__;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/xoo-qv-admin.php:137
+msgid "Button Text"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:144
+msgid "Font Size"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:151
+msgid "Button position"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:158
+msgid "Background Color"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:165
+msgid "Text Color"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:172
+msgid "Button Padding"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:179
+msgid "Border Size"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:186
+msgid "Border Color"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:194
+msgid "Quick View button icon"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:201
+msgid "Icon Color"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:208
+msgid "Enable on mobile"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:215
+msgid "Select Animation"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:222
+msgid "Product link button"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:229
+msgid "Product link button text"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:236
+msgid "Product images area"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:243
+msgid "Product images width"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:250
+msgid "Enable gallery"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:257
+msgid "Enable Lightbox"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:264
+msgid "Show image title"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:286
+msgid "Basic"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:287
+msgid "Advanced"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:295
+msgid "Quick View Button Style"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:300
+msgid "General Options"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:305
+msgid "Image Settings"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:315
+msgid "Quick View"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:319
+msgid "Label for quick view button."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:328
+msgid "Quick View button & icon font size."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:329
+msgid "Size in px (For eg: 13 , 14 , 20)"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:344
+msgid "After product image"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:347
+msgid "After product title"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:350
+msgid "After product price"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:353
+msgid "After product cart button"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:356
+msgid "On Image hover"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:359
+msgid "Position of quick view button on archive."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:386
+msgid "top-bottom , left-right (Default: 6px 8px)"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:395
+msgid "Size in px (Default: 1)"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:414
+msgid "Enable Quick view Button icon."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:432
+msgid "Enable Quick view on mobile devices."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:442
+msgid "None"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:448
+msgid "Quick View Modal (Box) Animation."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:456
+msgid "Link to the current product"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:461
+msgid "Product Details"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:465
+msgid "Label for product link button."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:474
+msgid "Area covered by images."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:475
+msgid "Default: 40 (Value is in percentage.)"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:484
+msgid "Width of woocommerce product images."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:485
+msgid "Default: 100 (Value is in percentage.)"
+msgstr ""
+
+#: inc/xoo-qv-admin.php:495
+msgid "Enable Gallery Images."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:504
+msgid "Product Images will open in lightbox."
+msgstr ""
+
+#: inc/xoo-qv-admin.php:514
+msgid "Show image title."
+msgstr ""
+
+#: templates/xoo-qv-product-image.php:28
+msgid "Placeholder"
+msgstr ""
+
+#: xoo-quickview-main.php:39
+msgid "WooCommerce Quick view requires WooCommerce in order to work."
+msgstr ""

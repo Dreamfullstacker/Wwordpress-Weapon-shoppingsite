@@ -1,0 +1,8 @@
+2022-06-20T07:41:26+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpressTest\wp-content\plugins\jetpack\_inc\lib\core-api\wpcom-endpoints\class-wpcom-rest-api-v2-endpoint-transient.php on line 84
+
+2022-06-20T07:42:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+
+2022-06-20T07:42:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-includes\wp-db.php on line 2162
+
+2022-06-20T07:44:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-includes\wp-db.php on line 2162
+

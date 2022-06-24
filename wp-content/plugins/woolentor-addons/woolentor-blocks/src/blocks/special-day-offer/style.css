@@ -1,0 +1,109 @@
+svg.woolentor-banner-default{
+  fill-opacity: 0.1;
+}
+.wlspcial-banner .banner-thumb a {
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.wlspcial-banner .banner-thumb a::before {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 0;
+}
+
+.wlspcial-banner .banner-thumb a::after {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s ease 0s;
+    width: 0;
+}
+
+.wlspcial-banner .banner-thumb a img {
+    width: 100%;
+}
+
+.wlspcial-banner:hover .banner-thumb a::before {
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.wlspcial-banner:hover .banner-thumb a::after {
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.wlspcial-banner {
+    position: relative;
+}
+
+.wlspcial-banner .banner-content{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.wlspcial-banner .banner-content a {
+  color: #383838;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.woolentor-banner-content-pos-center .banner-content{
+    top: 50%;
+    right: 0;
+    left: auto;
+    transform: translateY(-50%);
+}
+
+.woolentor-banner-content-pos-bottom .banner-content {
+  bottom: 0;
+  padding-bottom: 40px;
+}
+
+.woolentor-banner-content-pos-top .banner-content {
+  top: 0;
+  padding-top: 40px;
+}
+
+.wlspcial-banner.woolentor-banner-content-pos-right .banner-content {
+  top: 50%;
+  right: 0;
+  width: auto;
+  transform: translateY(-50%);
+}
+.wlspcial-banner.woolentor-banner-content-pos-left .banner-content {
+  top: 50%;
+  left: 0;
+  width: auto;
+  transform: translateY(-50%);
+}
+.wlbanner-badgeimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.wlbanner-badgeimage img{
+  width: 100%;
+}

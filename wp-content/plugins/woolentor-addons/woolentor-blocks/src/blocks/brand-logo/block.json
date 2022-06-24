@@ -1,0 +1,146 @@
+{
+	"name": "woolentor/brand-logo",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "brandLogoList":{
+            "type": "array",
+            "default": [
+                {
+                    "title":"Brand Title One",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                },
+                {
+                    "title":"Brand Title Two",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                },
+                {
+                    "title":"Brand Title Three",
+                    "image":{
+                        "id":"",
+                        "url":""
+                    }
+                }
+            ]
+        },
+        "columns": {
+            "type": "object",
+            "default": {
+                "desktop": 6
+            }
+        },
+        "noGutter":{
+            "type": "boolean",
+            "default": false
+        },
+        "itemSpace":{
+            "type": "number",
+            "default": 15
+        },
+        "singleItemAreaBorderType":{
+            "type":"string",
+            "default":"",
+            "selector":".wl-single-brand"
+        },
+        "singleItemAreaBorderWidth":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand"
+        },
+        "singleItemAreaBorderColor":{
+            "type":"string",
+            "selector":".wl-single-brand"
+        },
+        "singleItemAreaBorderRadius":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand"
+        },
+        "singleItemAreaMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand"
+        },
+        "singleItemAreaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand"
+        },
+        "brandAlignment":{
+            "type":"string",
+            "default":"center",
+            "selector": ".wl-single-brand"
+        },
+        "brandImageBorderType":{
+            "type":"string",
+            "default":"",
+            "selector":".wl-single-brand img"
+        },
+        "brandImageBorderWidth":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand img"
+        },
+        "brandImageBorderColor":{
+            "type":"string",
+            "selector":".wl-single-brand img"
+        },
+        "brandImageBorderRadius":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wl-single-brand img"
+        }
+
+    }
+}

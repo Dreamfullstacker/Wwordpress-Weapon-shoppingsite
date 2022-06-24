@@ -1,0 +1,145 @@
+.xoo-qv-form label{
+	font-style: italic;
+	margin-left: 10px;
+}
+
+.xoo-qv-main-settings{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    max-width: 1200px;
+}
+.xoo-qv-form h2{
+    background-color: #4C4C4C;
+    padding: 11px;
+    color: white;
+}
+.xoo-qv-form input[type="text"]{
+	min-width: 270px;
+}
+.xoo-qv-input{
+	min-width: 270px;
+}
+.premium-notice , .rate-plugin ,.plugin-support {
+    margin-top: 10px;
+    background-color: #f5deb3;
+    padding: 7px;
+    font-weight: 600;
+    display: table;
+}
+
+.premium-disabled{
+    cursor: not-allowed;
+    opacity: 0.9;
+
+}
+.premium-disabled label{
+    cursor: not-allowed;
+}
+.imgh-alert{
+    color: red!important;
+    display: none;
+}
+.donate-us a{
+    color: #f11111;
+    text-decoration: initial;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+}
+.donate-us{
+    display: table;
+    float: right;
+}
+.donate-us:hover {
+    text-decoration: underline;
+}
+
+
+/*** Tabs ***/
+.settings-tab{
+    display: none;
+}
+.settings-tab-active{
+    display: block;
+}
+
+
+.xoo-qv-tabs{
+    border-bottom: 1px solid #ccc;
+}
+.xoo-qv-tabs ul{
+    display: inline-block;
+    margin: 0;
+}
+.xoo-qv-tabs li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 3px;
+    background-color: #4C4C4C;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0;
+    cursor: pointer
+}
+
+li.tab-1{
+    margin-left: 0;
+}
+.xoo-qv-tabs .active-tab{
+    background-color: #2d84d4;
+}
+/**          ***/
+
+/***   ***/
+.xoo-qv-sidebar{
+    width: 25%;
+    max-width: 250px;
+    float: left;
+    margin-top: 54px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 0px;
+    text-align: center;
+    margin-left: 10px;
+}
+.xoo-chhead{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+}
+.xoo-chicon{
+    height: 34px;
+    width: 34px;
+    font-size: 34px;
+}
+.xoo-chtxt {
+    font-size: 16px;
+    margin-right: 24px;
+    line-height: 25px;
+}
+.xoo-more-plugins{
+    margin-top: 4px;
+}
+/* End sidebar */
+ol.xoo-howto-info li{
+    margin-top: 10px;
+    font-size: 15px;
+}
+ol.xoo-howto-info li span{
+    display: block;
+    margin-top: 10px;
+}
+
+.xoo-df span{
+    font-style: italic;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+.xoo-hero-btns{
+    display: table;
+    margin: 10px auto;
+}
+.xoo-hero-btns a{
+    margin-right: 15px!important;
+}

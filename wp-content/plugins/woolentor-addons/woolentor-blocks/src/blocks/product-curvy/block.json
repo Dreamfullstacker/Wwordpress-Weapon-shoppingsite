@@ -1,0 +1,201 @@
+{
+	"name": "woolentor/product-curvy",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "areaMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "areaBGProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            }
+        },
+        "layout":{
+            "type": "string"
+        },
+        "columns": {
+            "type": "object",
+            "default": {
+                "desktop": 4
+            }
+        },
+        "noGutter":{
+            "type": "boolean",
+            "default": false
+        },
+        "itemSpace":{
+            "type": "number",
+            "default": 15
+        },
+        "productFilterType":{
+            "type": "string",
+            "default": "recent"
+        },
+        "perPage":{
+            "type": "number",
+            "default": 4
+        },
+        "customOrder":{
+            "type": "boolean",
+            "default": false
+        },
+        "orderBy":{
+            "type": "string",
+            "default": "none"
+        },
+        "order":{
+            "type": "string",
+            "default": "DESC"
+        },
+        "selectedCategories":{
+            "type": "array",
+            "default": []
+        },
+        "contentLimit":{
+            "type": "number",
+            "default": 6
+        },
+        "showTitle":{
+            "type": "boolean",
+            "default": true
+        },
+        "showPrice":{
+            "type": "boolean",
+            "default": true
+        },
+        "showContent":{
+            "type": "boolean",
+            "default": true
+        },
+        "showRating":{
+            "type": "boolean",
+            "default": true
+        },
+        "itemAreaBGColor":{
+            "type": "string"
+        },
+        "itemMarginBottom":{
+            "type": "number",
+            "default":15
+        },
+        "titleSize":{
+            "type": "string"
+        },
+        "titleColor":{
+            "type": "string"
+        },
+        "titleHoverColor":{
+            "type": "string"
+        },
+        "titleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "salePriceColor":{
+            "type": "string"
+        },
+        "regulerPriceColor":{
+            "type": "string"
+        },
+        "contentSize":{
+            "type": "string"
+        },
+        "cotentColor":{
+            "type": "string"
+        },
+        "contentMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "emptyRatingColor":{
+            "type": "string"
+        },
+        "ratingColor":{
+            "type": "string"
+        },
+        "ratingMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "actionBtnAreaBGColor":{
+            "type": "string"
+        },
+        "actionBtnColor":{
+            "type": "string"
+        },
+        "actionBtnBGColor":{
+            "type": "string"
+        },
+        "actionBtnBorderRadius": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "actionBtnHoverColor":{
+            "type": "string"
+        },
+        "actionBtnBgHoverColor":{
+            "type": "string"
+        },
+        "imageBorderColor":{
+            "type": "string"
+        }
+        
+    }
+}

@@ -1,0 +1,14 @@
+.wl-row.slick-slider{
+    margin-right: 0;
+    margin-left: 0;
+}
+.wl-single-brand {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slick-slide .wl-single-brand{
+    margin-bottom: 0;
+}
+.slick-slide .wl-single-brand img {
+    display: inline-block;
+}

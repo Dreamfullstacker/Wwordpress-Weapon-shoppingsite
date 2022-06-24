@@ -1,0 +1,147 @@
+{
+	"name": "woolentor/product-tab",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "style":{
+            "type": "string",
+            "default": "1"
+        },
+        "columns":{
+            "type": "number",
+            "default": 4
+        },
+        "rows":{
+            "type": "number",
+            "default": 1
+        },
+        "productTab":{
+            "type": "boolean",
+            "default": false
+        },
+        "slider":{
+            "type": "boolean",
+            "default": false
+        },
+        "productFilterType":{
+            "type": "string",
+            "default": "recent"
+        },
+        "perPage":{
+            "type": "number",
+            "default": 4
+        },
+        "customOrder":{
+            "type": "boolean",
+            "default": false
+        },
+        "orderBy":{
+            "type": "string",
+            "default": "none"
+        },
+        "order":{
+            "type": "string",
+            "default": "DESC"
+        },
+        "selectedCategories":{
+            "type": "array",
+            "default": []
+        },
+        "slitems":{
+            "type": "number",
+            "default": 4
+        },
+        "slarrows":{
+            "type": "boolean",
+            "default": true
+        },
+        "sldots":{
+            "type": "boolean",
+            "default": false
+        },
+        "slpauseOnHover":{
+            "type": "boolean",
+            "default": true
+        },
+        "slautolay":{
+            "type": "boolean",
+            "default": false
+        },
+        "slautoplaySpeed":{
+            "type": "number",
+            "default": 3000
+        },
+        "slanimationSpeed":{
+            "type": "number",
+            "default": 300
+        },
+        "slscrollItem":{
+            "type": "number",
+            "default": 3
+        },
+        "sltabletDisplayColumns":{
+            "type": "number",
+            "default": 2
+        },
+        "sltabletScrollColumns":{
+            "type": "number",
+            "default": 2
+        },
+        "sltabletWidth":{
+            "type": "number",
+            "default": 750
+        },
+        "slMobileDisplayColumns":{
+            "type": "number",
+            "default": 1
+        },
+        "slMobileScrollColumns":{
+            "type": "number",
+            "default": 1
+        },
+        "slMobileWidth":{
+            "type": "number",
+            "default": 480
+        },
+        "titleColor":{
+            "type": "string",
+            "selector": ".product-item .product-inner .content .title a"
+        },
+        "titleHoverColor":{
+            "type": "string",
+            "selector": ".product-item .product-inner .content .title a:hover"
+        },
+        "titleAlign":{
+            "type": "string",
+            "selector": ".product-item .product-inner .content .title"
+        },
+        "priceColor":{
+            "type": "string",
+            "selector": ".product-item .product-inner .content .price"
+        },
+        "actionBtnColor":{
+            "type": "string",
+            "selector": ".product-item .actions a"
+        },
+        "actionBtnBgColor":{
+            "type": "string",
+            "selector": ".product-item .actions"
+        },
+        "actionBtnHoverColor":{
+            "type": "string",
+            "selector": ".product-item .actions a:hover"
+        },
+        "actionBtnHoverBgColor":{
+            "type": "string",
+            "selector": ".product-item .actions:hover"
+        },
+        "contentAlign":{
+            "type": "string",
+            "selector": ".product-item .product-inner .content .price"
+        }
+        
+    }
+}

@@ -1,0 +1,243 @@
+{
+	"name": "woolentor/special-day-offer",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "contentPosition":{
+            "type": "string",
+            "default": "center"
+        },
+        "bannerImage": {
+            "type": "object",
+            "default":{
+                "id": null,
+                "url": ""
+            }
+        },
+        "title":{
+            "type": "string",
+            "default": "Banner Title"
+        },
+        "subTitle":{
+            "type": "string",
+            "default": "Banner Sub Title"
+        },
+        "bannerDescription":{
+            "type": "string",
+            "default": "Banner Description"
+        },
+        "offerAmount":{
+            "type": "string"
+        },
+        "offerTagLine":{
+            "type": "string"
+        },
+        "bannerLink":{
+            "type": "string"
+        },
+        "buttonText":{
+            "type": "string"
+        },
+        "badgeImage":{
+            "type": "object",
+            "default":{
+                "id": null,
+                "url": ""
+            }
+        },
+        "badgeHorizontalPos":{
+            "type": "number",
+            "default": 25
+        },
+        "badgeVerticlePos":{
+            "type": "number"
+        },
+        "titleColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h2"
+        },
+        "titleSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h2"
+        },
+        "titleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content h2"
+        },
+        "titlePadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content h2"
+        },
+        "titleSubColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h6"
+        },
+        "titleSubSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h6"
+        },
+        "subTitleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "subTitlePadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "contentAlignment":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content"
+        },
+        "contentAreaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "contentAreaMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "desColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content p"
+        },
+        "desSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content p"
+        },
+        "desMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content p"
+        },
+        "desPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content p"
+        },
+        "offerColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h5"
+        },
+        "offerSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h5"
+        },
+        "offerMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content h5"
+        },
+        "offerTagColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h5 span"
+        },
+        "offerTagSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content h5 span"
+        },
+        "offerTagMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content h5 span"
+        },
+        "buttonColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content a"
+        },
+        "buttonHoverColor":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content a:hover"
+        },
+        "buttonSize":{
+            "type": "string",
+            "selector": ".wlspcial-banner .banner-content a"
+        },
+        "buttonMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlspcial-banner .banner-content a"
+        }
+    }
+}

@@ -1,0 +1,284 @@
+.wp-core-ui .wp-block-woolentor-product-tab .button:hover{
+    background-color: inherit;
+    border-radius: 20px;
+}
+[class*="wlb-marker-style-"] .wlb_image_pointer .wlb_pointer_box h4{
+    margin-top: 0;
+}
+.wlspcial-banner .banner-content h5{
+    margin: 0;
+}
+
+.woolentor-alignment-btn-group{
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+.woolentor-alignment-btn-group button:focus{
+    box-shadow: none !important;
+}
+span.woolentor-reset-btn {
+    margin-left: 5px;
+    cursor: pointer;
+}
+span.woolentor-reset-btn:hover{
+    color: #007cba;
+}
+
+.wp-block-image-selector-woolentor-image-uploader{
+    margin-bottom: 15px;
+}
+
+.wp-block-image-selector-woolentor-image-uploader .components-spinner {
+    margin: 0;
+    float: none;
+}
+
+.wp-block-image-selector-woolentor-image-uploader .components-button + .wp-block-image-selector-woolentor-image-uploader .components-button {
+    margin-top: 1em;
+    margin-right: 8px;
+}
+.wp-block-image-selector-woolentor-image-uploader .is-destructive{
+    float: right;
+    margin-top: 5px;
+}
+.editor-styles-wrapper .wp-block-woolentor-special-day-offer p,.editor-styles-wrapper .wp-block-woolentor-special-day-offer h2,.editor-styles-wrapper .wp-block-woolentor-special-day-offer h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wp-block-woolentor-product-curvy .wl_single-product-item.wl_left-item .product-thumbnail{
+    width: 267px;
+}
+
+/* Category grid */
+.wp-block-woolentor-category-grid .components-spinner{
+    margin: 0 auto;
+}
+.product-slider .slick-arrow{
+    display: block !important;
+}
+.product-slider .slick-arrow i{
+    font-style: normal !important;
+}
+.product-slider .slick-dots{
+    display: flex !important;
+}
+
+/*Product tab*/
+.wp-block-woolentor-product-tab .ht-product-action-tooltip{
+    display: none;
+}
+.wp-block-woolentor-product-tab .wishlist i{
+    font-style: normal;
+}
+
+/* Section Title */
+h2.woolentor-blocks-section-title {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    box-shadow: 0 0px 4px rgb(0 0 0 / 10%);
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-color: #eee;
+}
+
+/* Tabs Menu */
+.woolentor-tabs-menu-btn-group {
+    display: flex;
+}
+.woolentor-tab-menu-item {
+    border: 0 !important;
+    outline: none !important;
+    padding: 12px 10px !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #222222 !important;
+}
+.woolentor-tab-menu-item.woolentor-tab-menu-active{
+    color: #ffffff !important;
+}
+.woolentor-tabs-menu-btn-group .components-button.has-icon.has-text .dashicon {
+    margin-right: 5px;
+    height: 18px;
+}
+.woolentor-tabs-menu-btn-group .components-button-group .components-button{
+    border-radius: 0;
+}
+.woolentor-tabs-menu-btn-group .components-button-group .components-button,.woolentor-tabs-menu-btn-group .components-button:focus {
+    box-shadow: none !important;
+}
+
+button.components-button.woolentor-elements-tab-menu-item {
+    flex: 0 0 50%;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1px #d5dadf;
+    color: #222222 !important;
+}
+button.components-button.woolentor-elements-tab-menu-item:hover{
+    box-shadow: inset 0 0 0 1px #d5dadf !important;
+}
+button.components-button.woolentor-elements-tab-menu-item.tab-menu-active{
+    background-color: #a4afb7 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 0 0 1px #a4afb7 !important;
+}
+.woolentor-element-tab-content {
+    padding-top: 15px;
+}
+
+
+/* Dimensions control */
+.wp-block-selector-woolentor-dimensions-control{
+    margin: 15px 0;
+}
+.wp-block-selector-woolentor-dimensions-control .components-panel__row{
+    align-items: flex-start;
+}
+.wp-block-selector-woolentor-dimensions-control h3{
+    margin: 0 0 5px 0;
+}
+.wp-block-selector-woolentor-dimensions-control .components-flex__item{
+    margin: 0;
+    text-align: center;
+}
+.wp-block-selector-woolentor-dimensions-control .components-flex__item label{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.wp-block-selector-woolentor-dimensions-control .components-base-control__field{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column-reverse;
+    margin: 0 !important;
+}
+.wp-block-selector-woolentor-dimensions-control .components-base-control__label{
+    margin-bottom: -3px;
+    margin-left: 3px;
+    margin-right: 0;
+}
+.wp-block-selector-woolentor-dimensions-control .components-input-control__backdrop{
+    border-right: 0 !important;
+    border-radius: 0 !important;
+}
+.wp-block-selector-woolentor-dimensions-control .components-text-control__input{
+    border-radius: 0;
+    margin-left: 0px;
+    padding: 5px 8px;
+    margin-top: 1px;
+}
+.wp-block-selector-woolentor-dimensions-control .components-input-control{
+    align-items: center;
+}
+.wp-block-selector-woolentor-dimensions-control button.components-button.has-icon{
+    height: 100%;
+    width: auto;
+    padding: 4px 3px;
+    border-radius: 0;
+    border: 1px solid #222;
+}
+.wp-block-selector-woolentor-dimensions-control button.components-button.has-icon .dashicon{
+    margin-right: 0;
+}
+.wp-block-selector-woolentor-dimensions-control button.components-button.has-icon:focus,.wp-block-selector-woolentor-dimensions-control .woolentor-dimensions-btn-group button:focus,.wp-block-selector-woolentor-dimensions-control .components-button.is-secondary.has-icon{
+    box-shadow: none !important;
+}
+.wp-block-selector-woolentor-dimensions-control .woolentor-dimensions-btn-group button{
+    padding: 1px 7px;
+    height: auto;
+}
+.woolentor-panel-row-height-auto{
+    min-height: inherit;
+}
+
+/* Background Control */
+.wp-block-selector-woolentor-background-control .components-select-control .components-flex__item,.wp-block-selector-woolentor-background-control .components-select-control .components-input-control__container{
+    width: 50% !important;
+    flex: 0 1 50%;
+}
+
+/* Repeter Field style */
+.woolentor_repeater-fields .woolentor_repeater-controls:not(.woolentor_active_repeter) {
+    display: none;
+}
+.woolentor_repeater-fields {
+    margin: 10px 0;
+}
+.woolentor_repeater-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d5dadf;
+    cursor: pointer;
+}
+.woolentor_repeater-item-title {
+    margin-left: 10px;
+}
+.woolentor_repeater-tools .components-button.has-icon{
+    padding: 0;
+    border-left: 1px solid #d5dadf;
+    border-radius: 0;
+}
+.woolentor_repeater-tools .components-button.has-icon .dashicon{
+    margin: 0;
+}
+.woolentor_repeater-controls {
+    border: 1px solid #d5dadf;
+    padding: 10px;
+    border-top: 0;
+}
+
+/* Taxonomy Field style */
+.woolentor-component-taxonomy-area {
+    margin-bottom: 20px;
+}
+.woolentor-component-taxonomy-fileds {
+    max-height: 290px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.woolentor-component-taxonomy-fileds:hover{
+    overflow-y: auto;
+}
+.woolentor-component-taxonomy-fileds::-webkit-scrollbar {
+    width: 5px;
+}
+.woolentor-component-taxonomy-fileds::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.woolentor-component-taxonomy-fileds::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+.woolentor-component-taxonomy-fileds::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Responsive Buttons */
+.components-panel__row.woolentor-device-row {
+    justify-content: start;
+}
+.components-panel__row.woolentor-device-row label {
+    margin-right: 5px;
+}
+.woolentor-device-button button.components-button {
+    padding: 0 !important;
+    min-width: inherit;
+    height: inherit;
+    box-shadow: none !important;
+    border: none !important;
+    color: #222 !important;
+    background-color: transparent !important;
+}
+.woolentor-device-button button.components-button span.dashicon{
+    font-size: 13px;
+    width: inherit;
+    height: inherit;
+}
+.woolentor-device-button button.components-button.is-primary{
+    color: #007cba !important;
+}

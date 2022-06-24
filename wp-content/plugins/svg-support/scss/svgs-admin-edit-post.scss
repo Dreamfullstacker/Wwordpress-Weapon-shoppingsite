@@ -1,0 +1,14 @@
+/**
+ * Featured Image Display
+ *
+ * Fixes the 0px featured image on edit screen
+ * WooCommerce Product, Sensei Course
+ */
+body #set-post-thumbnail,
+body #postimagediv .inside img[src$=".svg"] {
+	width: 100%;
+}
+// fix featured image extending outside container
+.editor-post-featured-image .components-responsive-wrapper__content {
+	position: relative;
+}

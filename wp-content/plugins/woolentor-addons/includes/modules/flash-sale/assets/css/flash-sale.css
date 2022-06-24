@@ -1,0 +1,45 @@
+/*Countdown*/
+.ht-saleflash-countdown-wrap{
+    margin-bottom: 15px;
+}
+.ht-saleflash-countdown-wrap .ht-product-countdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -2px;
+}
+
+.ht-saleflash-countdown-wrap.ht-align--center .ht-product-countdown {
+    margin: auto;
+    justify-content: center;
+}
+
+.ht-saleflash-countdown-wrap.ht-align--center{
+    text-align: center;
+}
+
+.ht-saleflash-countdown-wrap .ht-saleflash-countdown-title{
+    font-weight: 500;
+}
+
+.ht-saleflash-countdown-wrap .ht-product-countdown .cd-single {
+    padding: 2px;
+    min-width: 60px;
+}
+
+.ht-saleflash-countdown-wrap .ht-product-countdown .cd-single .cd-single-inner {
+    text-align: center;
+    border: 1px solid;
+}
+
+.ht-saleflash-countdown-wrap .ht-product-countdown .cd-single .cd-single-inner h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px 0 2px;
+}
+
+.ht-saleflash-countdown-wrap .ht-product-countdown .cd-single .cd-single-inner p {
+    font-size: 12px;
+    margin: 0 0 2px;
+}

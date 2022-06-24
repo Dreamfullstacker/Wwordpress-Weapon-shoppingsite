@@ -1,0 +1,409 @@
+.woolentor-product-tab-area {
+    position: relative;
+    z-index: 35;
+}
+
+.product-slider {
+    width: 100%;
+}
+
+.product-item {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.product-item mark, .product-item ins {
+    background: transparent;
+}
+
+.product-item .product-inner .image-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-item .product-inner .image-wrap .wishlist, .product-item .product-inner .image-wrap .tinv-wraper {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-top: 0;
+}
+
+.product-item .product-inner .image-wrap .tinv-wraper a, .ht-product-action .tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button {
+    margin: 0;
+}
+
+.ht-product-list-action .tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button {
+    margin-top: 0;
+}
+
+.product-item .product-inner .image-wrap .tinv-wraper a .tinvwl_add_to_wishlist-text, .ht-product-action .tinv-wraper a .tinvwl_add_to_wishlist-text {
+    display: none;
+}
+
+.ht-product-action .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart::before, .ht-product-action .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus::before {
+    font-size: 26px;
+}
+
+.yith-wcwl-add-to-wishlist .ajax-loading {
+    left: 20px;
+    margin: 0;
+    position: absolute;
+    top: 4px;
+}
+
+.product-item .content {
+    padding-top: 10px;
+}
+
+.content h4.title {
+    margin: 0;
+}
+
+.product-item .product-inner .content .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-item .actions {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s ease 0s;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-item .actions>* {
+    flex: 1 0 auto;
+}
+
+.product-item .product-inner .image-wrap .actions.style_two {
+    width: 85%;
+    border-radius: 0;
+    bottom: 0;
+    top: auto;
+}
+
+.product-item .woocommerce.compare-button a.button {
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.product-item .product-inner .image-wrap .style_two .wishlist {
+    position: static;
+}
+
+.yith-wcwl-add-button {
+    position: relative;
+}
+
+.style_two .yith-wcwl-add-to-wishlist .ajax-loading {
+    margin-left: 0;
+    top: 11px;
+}
+
+.product-item .woocommerce.product.compare-button, .product-item .actions .htcompare-btn {
+    border-left: 1px solid #999;
+}
+
+.product-item .actions .htcompare-btn {
+    border-radius: 0;
+}
+
+.product-item:hover .actions {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: visible;
+}
+
+.product-item .actions a, .product-item .woocommerce.compare-button a.button {
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    line-height: inherit;
+    padding: 7px 5px;
+    text-indent: -999999px;
+    position: relative;
+    background: transparent;
+}
+
+.product-item .actions a::before {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: 0;
+    top: 5px;
+    width: 100%;
+}
+
+.product-item .actions .compare-button a::before, .product-item .actions .htcompare-btn::before {
+    content: "\f021";
+}
+
+.product-item .product-inner .image-wrap .style_two .wishlist a::before {
+    content: "\f08a";
+}
+
+.product-item .product-inner .image-wrap .style_two .wishlist .yith-wcwl-wishlistexistsbrowse a::before, .product-item .product-inner .image-wrap .style_two .wishlist .yith-wcwl-wishlistaddedbrowse a::before {
+    content: "\f004";
+}
+
+.product-item .product-inner .actions.style_two a {
+    text-indent: 0;
+}
+
+.product-item .product-inner .actions.style_two a::before {
+    display: none;
+}
+
+.product-item .product-inner .actions.style_two .tinv-wishlist a::before {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.product-item .product-inner .actions.style_two .tinv-wishlist a {
+    text-indent: -999999px;
+    margin: 0;
+}
+
+.product-item.product_style_three .product-inner .image-wrap {
+    overflow: visible;
+}
+
+.product_information_area {
+    background: #fff none repeat scroll 0 0;
+    bottom: -90px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.18);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    width: 100%;
+}
+
+.product_information_area .content {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.product-item .product-inner .image-wrap .product_information_area .actions.style_two {
+    border-radius: 0;
+    bottom: 0;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0 30px;
+    position: static;
+    top: auto;
+    transform: translateX(0px);
+    visibility: visible;
+    width: 100%;
+}
+
+.product-item:hover .product_information_area {
+    bottom: -103px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.woocommerce span.onsale, span.onsale {
+    background-color: #23252a;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    left: 15px;
+    top: 15px;
+    line-height: 1;
+    min-height: inherit;
+    min-width: inherit;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+.product-item a.button.added {
+    display: none !important;
+}
+
+.product-item .actions .htcompare-btn.added {
+    display: block !important;
+}
+
+.product-item .actions .htcompare-btn.loading {
+    padding: 0;
+}
+
+.product-item .actions a.htcompare-btn.loading::after {
+    right: 20px;
+}
+
+.product-item .product-inner .image-wrap .actions a.added_to_cart {
+    text-indent: -99999px;
+}
+
+.product-item .product-inner .image-wrap .actions a.added_to_cart::before {
+    content: "";
+    font-family: WooCommerce;
+    font-size: 20px;
+    left: auto;
+    position: absolute;
+    text-indent: 0;
+    top: 0;
+    display: block;
+}
+
+.product-item a.button.added::after, .product-item a.button.loading::after {
+    color: #fff;
+    content: "";
+    display: block;
+    font-family: "fontawesome";
+    margin: 0 auto;
+    position: absolute;
+    text-indent: 0;
+    top: 5px;
+}
+
+/* Tab Menu */
+
+.ht-tab-menus {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ht-tab-menus {
+    margin-bottom: 45px;
+}
+
+.ht-tab-menus li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ht-tab-menus li:last-child {
+    margin-right: 0;
+}
+
+.ht-tab-menus li a {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+.ht-tab-menus li a:focus {
+    outline: none;
+}
+
+.ht-tab-menus li a.htactive {
+    border-color: #e5e5e5;
+}
+
+.ht-tab-pane {
+    display: none;
+}
+
+.ht-tab-pane.htactive {
+    display: block;
+}
+
+.product_attribute ul {
+    list-style: outside none none;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: left;
+}
+
+.product_information_area .attribute_label {
+    font-weight: 600;
+}
+
+.product_attribute {
+    margin-top: 25px;
+    padding: 0 30px;
+}
+
+.product_attribute ul li {
+    display: inline-block;
+    line-height: 1;
+    margin: 0 10px 0 0;
+}
+
+.product_attribute ul li.color_attribute {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+}
+
+.product-slider .slick-arrow {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #ddd;
+    color: #ddd;
+    font-size: 20px;
+    height: 40px;
+    left: -30px;
+    line-height: inherit;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    z-index: 99;
+    transition: 0.4s;
+}
+
+.product-slider .slick-arrow.slick-next {
+    right: -30px;
+    left: auto;
+}
+
+.product-slider .slick-arrow:hover {
+    border-color: #333;
+    color: #333;
+}
+
+.product-slider .slick-dots {
+    bottom: 0px;
+    display: flex;
+    left: 50%;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.product-slider .slick-dots li {
+    line-height: 12px;
+    margin: 0 4px;
+}
+
+.product-slider .slick-dots li button {
+    background-color: transparent;
+    border: 1px solid #4e4f4f;
+    border-radius: 50px;
+    height: 13px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 13px;
+    line-height: 13px;
+}
+
+.product-slider .slick-dots li.slick-active button {
+    background-color: #282828;
+    border-color: #282828;
+}

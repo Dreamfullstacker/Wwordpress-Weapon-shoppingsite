@@ -1,0 +1,112 @@
+{
+	"name": "woolentor/store-feature",
+    "category": "woolentor-blocks",
+    "supports": {
+		"align": true
+	},
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "layout":{
+            "type": "string",
+            "default": "1"
+        },
+        "featureImage": {
+            "type": "object",
+            "default":{
+                "id": null,
+                "url": ""
+            }
+        },
+        "title":{
+            "type": "string",
+            "default": "Free shipping"
+        },
+        "subTitle":{
+            "type": "string",
+            "default": "Start from $100"
+        },
+        "textAlignment": {
+			"type": "string",
+            "default":"center"
+		},
+        "areaBorderColor": {
+			"type": "string",
+            "selector":".ht-feature-wrap .ht-feature-inner"
+		},
+        "areaHoverBorderColor": {
+			"type": "string",
+            "selector":".ht-feature-wrap:hover .ht-feature-inner"
+		},
+        "areaMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".ht-feature-wrap"
+        },
+        "areaPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".ht-feature-wrap"
+        },
+        "areaBackgroundColor": {
+			"type": "string",
+            "selector":".ht-feature-wrap"
+		},
+        "titleColor": {
+			"type": "string",
+            "selector":".ht-feature-wrap .ht-feature-content h4"
+		},
+        "titleSize":{
+            "type":"string",
+            "selector": ".ht-feature-wrap .ht-feature-content h4"
+        },
+        "titleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".ht-feature-wrap .ht-feature-content h4"
+        },
+        "subTitleColor": {
+			"type": "string",
+            "selector":".ht-feature-wrap .ht-feature-content p"
+		},
+        "subTitleSize":{
+            "type":"string",
+            "selector": ".ht-feature-wrap .ht-feature-content p"
+        },
+        "subTitleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".ht-feature-wrap .ht-feature-content p"
+        }
+    }
+}

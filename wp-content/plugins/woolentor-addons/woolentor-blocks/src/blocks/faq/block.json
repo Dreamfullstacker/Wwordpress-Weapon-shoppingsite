@@ -1,0 +1,95 @@
+{
+	"name": "woolentor/faq",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "faqList":{
+            "type": "array",
+            "default": [
+                {
+                    "title" : "Words To Live By",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+                },
+                {
+                    "title" : "Producing Perfume From Home",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+                },
+                {
+                    "title" : "The Basics Of Western Astrology Explained",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+                },
+                {
+                    "title" : "What Curling Irons Are The Best Ones",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris niesi ut aliquip ex ea commodo consequat.sed do eiusmod tempor incididunt ut quis labore et doliore magna aliqua."
+                }
+            ]
+        },
+        "showFirstItem":{
+            "type": "boolean",
+            "default": true
+        },
+        "iconPosition":{
+            "type": "string",
+            "default": "right"
+        },
+        "headBackgroundColor":{
+            "type": "string"
+        },
+        "faqTitleColor":{
+            "type": "string"
+        },
+        "titleSize":{
+            "type": "string"
+        },
+        "titleBorderType":{
+            "type": "string"
+        },
+        "titleBorderWidth": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "titleBorderColor":{
+            "type":"string"
+        },
+        "titleBorderRadius":{
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            }
+        },
+        "iconColor":{
+            "type": "string"
+        },
+        "activeHeadBackgroundColor":{
+            "type": "string"
+        },
+        "activeFaqTitleColor":{
+            "type": "string"
+        },
+        "activeIconColor":{
+            "type": "string"
+        },
+        "contentColor":{
+            "type": "string"
+        },
+        "contentSize":{
+            "type": "string"
+        }
+        
+    }
+}

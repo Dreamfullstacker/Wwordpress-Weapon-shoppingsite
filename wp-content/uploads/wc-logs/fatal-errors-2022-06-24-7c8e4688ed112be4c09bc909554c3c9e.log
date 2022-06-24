@@ -1,0 +1,10 @@
+2022-06-24T12:17:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-content\plugins\elementor-pro\modules\forms\fields\field-base.php on line 6
+
+2022-06-24T12:19:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-content\plugins\elementor\includes\widgets\spacer.php on line 4
+
+2022-06-24T12:21:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-includes\Requests\Transport\cURL.php on line 462
+
+2022-06-24T12:22:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-includes\wp-db.php on line 2162
+
+2022-06-24T13:21:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpressTest\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\CartAddItem.php on line 101
+

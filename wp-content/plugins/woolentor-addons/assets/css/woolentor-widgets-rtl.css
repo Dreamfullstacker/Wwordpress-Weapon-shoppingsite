@@ -1,0 +1,28 @@
+.ht-products .ht-product .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-ratting-wrap .ht-product-ratting .ht-product-user-ratting {
+  left: auto;
+  right: 5px;
+}
+.ht-products .ht-product.ht-product-category-right-bottom .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-ratting-wrap {
+  padding-bottom: 30px;
+}
+.ht-products .ht-product.ht-product-ratting-top-right .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-categories {
+  top: 25px;
+}
+.ht-products .ht-product .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-categories {
+  display: inline-block;
+}
+.ht-products .ht-product .ht-product-inner .ht-product-content .ht-product-content-inner .ht-product-title{
+    padding-top: 10px;
+}
+.woocommerce .product-inner span.onsale, .product-inner span.onsale {
+  left: auto;
+  right: 15px;
+}
+.product-item .woocommerce.product.compare-button {
+  border-left: 0 none;
+  border-right: 1px solid #999;
+}
+
+[dir="rtl"] .product-slider .slick-arrow.slick-prev{
+  left: -30px;
+}

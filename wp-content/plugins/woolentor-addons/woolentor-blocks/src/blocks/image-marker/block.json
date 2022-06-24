@@ -1,0 +1,152 @@
+{
+	"name": "woolentor/image-marker",
+    "category": "woolentor-blocks",
+    "attributes": {
+        "blockUniqId":{
+            "type": "string",
+            "default": ""
+        },
+        "bgProperty":{
+            "type": "object",
+            "default": {
+                "imageId": null,
+                "imageUrl":"",
+                "position": "",
+                "attachment": "",
+                "repeat": "",
+                "size": ""
+            }
+        },
+        "style":{
+            "type": "string",
+            "default": "1"
+        },
+        "markerList":{
+            "type": "array",
+            "default": [
+                {
+                    "title" : "Marker One",
+                    "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+                    "horizontal": 50,
+                    "verticle": 15
+                },
+                {
+                    "title" : "Marker Two",
+                    "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+                    "horizontal": 40,
+                    "verticle": 20
+                },
+                {
+                    "title" : "Marker Three",
+                    "content": "Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.",
+                     "horizontal": 60,
+                    "verticle": 30
+                }
+            ]
+        },
+        "markerColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer::before"
+        },
+        "markerBGColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer"
+        },
+        "markerBorderColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer"
+        },
+        "markerBorderRadius": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer"
+        },
+        "markerPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer"
+        },
+        "markerContentBGColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box"
+        },
+        "markerContentBorderRadius": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box"
+        },
+        "markerContentPadding": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box"
+        },
+        "markerTitleColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box h4"
+        },
+        "markerTitleSize":{
+            "type":"string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box h4"
+        },
+        "markerTitleMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box h4"
+        },
+        "markerDescriptionColor":{
+            "type": "string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box p"
+        },
+        "markerDescriptionSize":{
+            "type":"string",
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box p"
+        },
+        "markerDescriptionMargin": {
+            "type": "object",
+            "default": {
+                "top":"",
+                "right":"",
+                "bottom":"",
+                "left":"",
+                "unit":"px",
+                "link":"yes"
+            },
+            "selector": ".wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box p"
+        }
+    }
+}
